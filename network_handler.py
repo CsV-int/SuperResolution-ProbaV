@@ -122,7 +122,7 @@ class NetworkHandler():
         print(np.shape(LR))
         print(np.shape(HR))
         for i in range(1,self.max_batch_size):
-			self.net.fit(datagen.flow( LR, HR, batch_size=i ),
+            self.net.fit(datagen.flow( LR, HR, batch_size=i ),
                          steps_per_epoch = self.steps_per_epoch,
                          epochs=self.epochs, 
                          use_multiprocessing=False, 

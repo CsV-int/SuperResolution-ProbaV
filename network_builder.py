@@ -14,7 +14,7 @@ class NetworkBuilder:
         self.depth = depth
         self.num_input_im = num_input_im
         self.name = name
-        self. = num_res_blocks
+        self.num_res_blocks = num_res_blocks
         self.learning_rate =learning_rate
         self.max_batch_size = max_batch_size
         self.steps_per_epoch = steps_per_epoch
